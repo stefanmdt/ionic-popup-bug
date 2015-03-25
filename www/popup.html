@@ -1,0 +1,18 @@
+<form name="from" novalidate>
+  <div class="list">
+    <div class="item item-input-inset">
+        <label class="item item-input item-floating-label">
+            <span class="input-label">Hours</span>
+            <input style="text-align: right;" type="tel" ng-model="data.hours" name="hours" min="0" max="23" ng-required="true" maxlength="2" placeholder="Hours">
+        </label>
+        <label class="item item-input item-floating-label">
+            <span class="input-label">Minutes</span>
+            <input style="text-align: right;" type="tel" ng-model="data.minutes" name="minutes" min="0" max="59" ng-required="true" maxlength="2" placeholder="Minutes">
+        </label>
+    </div>
+    <label class="item item-input item-floating-label">
+        <span class="input-label">Value</span>
+        <input style="text-align: right;" type="tel" ng-model="data.value" name="value" ng-required="true" maxlength="2" placeholder="Value">
+    </label>
+  </div>
+</form>
