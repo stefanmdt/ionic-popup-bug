@@ -2,6 +2,8 @@
 
 <h2>Installation</h2>
 
+bower update
+
 cordova plugin add org.apache.cordova.device
 
 cordova plugin add org.apache.cordova.console
